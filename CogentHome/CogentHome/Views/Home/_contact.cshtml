@@ -1,0 +1,76 @@
+﻿
+<!-- start: contact section-->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+           @* <div class="col-md-4">
+                <h3>find us via map</h3>
+                <div id="map-canvas"></div>
+            </div>*@
+            <div class="col-md-6">
+                <h3>send email</h3>
+
+                @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+                {
+                    <div class="form-group">
+                        <input  name="name" type="text" class="form-control" id="name" required="required" placeholder="Full Name">
+                    </div>
+
+                    <div class="form-group">
+                        <input name="email" type="email" class="form-control" id="email" required="required" placeholder="Email Address">
+                    </div>
+
+                    <textarea name="message" type="text" class="form-control" id="message" rows="5" required="required" placeholder="Type here message"></textarea>
+                    <button type="submit" id="submit" name="submit" class="btn btn-red-border submit-btn">submit</button>
+                    
+                }
+                    
+                
+            </div>
+            <div class="col-md-6">
+                <h3>contact details</h3>
+
+              @*  <p>
+                    blabla parkway, p.o box mountain view
+                    <br>
+                    united states of america
+                </p>*@
+
+                @*<p>
+                    <strong>local:</strong> 1-800-123-hello
+                    <br>
+                    <strong>tel:</strong> 1-800-123-hello
+                </p>*@
+
+                <p>
+                    info@cog3.co.uk
+                    <br>
+                    www.cog3.co.uk
+                </p>
+
+              @*  <ul class="social-icons">
+                    <li>
+                        <a href="#"><i class="ion-social-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ion-social-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ion-social-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ion-social-googleplus"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ion-social-rss"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="ion-social-youtube"></i></a>
+                    </li>
+                </ul>*@
+                            
+            </div>
+        </div>
+    </div>
+</section> <!-- /#contact -->
+<!-- end: contact section-->

@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- meta -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Cogent Software Development Ltd</title>
+        
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="/Content/template/bootstrap.min.css">
+        <link rel="stylesheet" href="/Content/template/ionicons.min.css">
+        <link rel="stylesheet" href="/Content/template/animate.css">
+        <link rel="stylesheet" href="/Content/template/owl.carousel.css">
+        <link rel="stylesheet" href="/Content/template/owl.theme.css">
+        <link rel="stylesheet" href="/Content/template/style.css">
+
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            @*//function initialize() {
+            //    var mapCanvas = document.getElementById('map-canvas');
+            //    var mapOptions = {
+            //        center: new google.maps.LatLng(24.909439, 91.833800),
+            //        zoom: 16,
+            //        scrollwheel: false,
+            //        mapTypeId: google.maps.MapTypeId.ROADMAP
+            //    }
+            //    var map = new google.maps.Map(mapCanvas, mapOptions)
+
+            //    var marker = new google.maps.Marker({
+            //        position: new google.maps.LatLng(24.909439, 91.833800),
+            //        title: "Cloud Agency Office"
+            //    });
+
+            //    // To add the marker to the map, call setMap();
+            //    marker.setMap(map);
+            //}
+
+            //google.maps.event.addDomListener(window, 'load', initialize);
+            *@
+        </script>
+
+    </head>
+
+    <body data-spy="scroll" data-target="#main-nav-collapse" data-offset="100">
+
+
+        <!-- site-navigation start -->  
+        <nav id="mainNavigation" class="navbar navbar-fixed-top" role="navigation">
+            <div class="container">
+                
+                <div class="navbar-header">
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <!-- navbar logo -->
+                    <div class="navbar-brand">
+                        <span class="sr-only">Cogent Software Development Ltd</span>
+                        <a href="/">
+                            <img src="/Content/img/main_logo.png" class="img-responsive center-block" alt="logo">
+                        </a>
+                    </div>
+                    <!-- navbar logo -->
+
+                </div><!-- /.navbar-header -->
+
+                <!-- nav links -->
+                <div class="collapse navbar-collapse" id="main-nav-collapse">
+                    <ul class="nav navbar-nav navbar-right text-uppercase">
+                        <li class="active">
+                            <a data-scroll href="#header">home</a>
+                        </li>
+                        <li>
+                            <a data-scroll href="#about">about</a>
+                        </li>
+                        <li>
+                            <a data-scroll href="#services">services</a>
+                        </li>
+                        @*<li>
+                            <a data-scroll href="#portfolio">portfolio</a>
+                        </li>*@
+                        <li>
+                            <a data-scroll href="#pricing">pricing</a>
+                        </li>
+                        @*<li>
+                            <a data-scroll href="#blog">blog</a>
+                        </li>*@
+                        <li>
+                            <a data-scroll href="#contact">contact</a>
+                        </li>
+                    </ul>
+                </div><!-- nav links -->
+                
+            </div><!-- /.container -->
+        </nav>
+        <!-- site-navigation end -->
+
+
+        <div id="home-page">
+
+        @RenderBody()
+            
+                       <!-- start: footer -->
+            <footer class="text-uppercase">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 small">
+                            <p>&copy; copyright @DateTime.Now.Year <a href="#">Cogent Software Development Ltd</a> </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <p class="credit small">Company No: 08052209 | Vat Registered No: 140 0700 75</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end: footer -->
+   
+
+        </div>
+
+
+        <!--  Necessary scripts  -->
+        <script type="text/javascript" src="/Scripts/template/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="/Scripts/template/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/Scripts/template/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="/Scripts/template/smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="/Scripts/template/owl.carousel.js"></script>
+        <script type="text/javascript" src="/Scripts/template/script.js"></script>
+
+    </body>
+</html>
