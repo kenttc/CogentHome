@@ -45,3 +45,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.user
+CogentHome/CogentHome/Properties/PublishProfiles/cog3 - Web Deploy.pubxml
+*.pubxml

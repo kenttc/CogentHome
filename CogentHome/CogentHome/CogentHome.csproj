@@ -101,6 +101,8 @@
     <Content Include="Content\templatefonts\ionicons.eot" />
     <Content Include="Content\templatefonts\ionicons.ttf" />
     <Content Include="Content\templatefonts\ionicons.woff" />
+    <None Include="Properties\PublishProfiles\cog3 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\cog3 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
